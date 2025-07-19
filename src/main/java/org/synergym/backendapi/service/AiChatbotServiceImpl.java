@@ -18,4 +18,14 @@ public class AiChatbotServiceImpl implements AiChatbotService {
                 .bodyToMono(ChatResponseDTO.class)
                 .block();
     }
+
+    @Override
+    public ChatResponseDTO callFastApiCommentSummary(ChatRequestDTO requestDTO) {
+        return webClient.post()
+                .uri("/chatbot/comment-summary")
+                .bodyValue(requestDTO)
+                .retrieve()
+                .bodyToMono(ChatResponseDTO.class)
+                .block();
+    }
 } 

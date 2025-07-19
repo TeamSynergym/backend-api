@@ -81,7 +81,7 @@ public class SecurityConfig {
                         .requestMatchers("/api/comments/**").hasAnyRole("MEMBER", "ADMIN")
                         .requestMatchers("/api/post-likes/**").hasAnyRole("MEMBER", "ADMIN")
                         .requestMatchers("/api/notifications/**").hasAnyRole("MEMBER", "ADMIN")
-                        .requestMatchers("/api/analysis-history/**").hasAnyRole("MEMBER", "ADMIN")
+                        .requestMatchers("/api/analysis-histories/**").permitAll()
                         .requestMatchers("/api/categories/**").hasAnyRole("MEMBER", "ADMIN")
                         .requestMatchers("/api/cloudinary/**").hasAnyRole("MEMBER", "ADMIN")
 
