@@ -126,10 +126,14 @@ public class ExerciseServiceImpl implements ExerciseService {
 
     @Override
     public ExerciseDTO getExerciseByExactName(String name) {
-        Exercise exercise = exerciseRepository.findByName(name);
-        if (exercise == null) {
+        List<Exercise> exercises = exerciseRepository.findByName(name);
+        System.out.println("[DEBUG] findByName('" + name + "') 결과 개수: " + (exercises == null ? 0 : exercises.size()));
+        if (exercises == null || exercises.isEmpty()) {
             return null;
         }
-        return entityToDTO(exercise);
+        for (Exercise e : exercises) {
+            System.out.println("[DEBUG] Exercise ID: " + e.getId() + ", Name: " + e.getName());
+        }
+        return entityToDTO(exercises.get(0));
     }
 }

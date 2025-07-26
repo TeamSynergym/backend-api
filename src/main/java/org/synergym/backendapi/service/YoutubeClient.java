@@ -11,11 +11,27 @@ public class YoutubeClient {
 
     public ChatResponseDTO sendYoutubeRequest(Map<String, Object> requestBody, String type) {
         requestBody.put("type", type);
-        return webClient.post()
-                .uri("/youtube")
-                .bodyValue(requestBody)
-                .retrieve()
-                .bodyToMono(ChatResponseDTO.class)
-                .block();
+        try {
+            // 원본 JSON 및 파싱 결과 로그 제거
+            webClient.post()
+                    .uri("/youtube")
+                    .bodyValue(requestBody)
+                    .retrieve()
+                    .bodyToMono(String.class)
+                    .block();
+            ChatResponseDTO response = webClient.post()
+                    .uri("/youtube")
+                    .bodyValue(requestBody)
+                    .retrieve()
+                    .bodyToMono(ChatResponseDTO.class)
+                    .block();
+            return response;
+        } catch (Exception e) {
+            System.out.println("[YoutubeClient] FastAPI 호출 실패: " + e.getMessage());
+            ChatResponseDTO errorResponse = new ChatResponseDTO();
+            errorResponse.setType("error");
+            errorResponse.setResponse("YouTube 서비스 호출 중 오류가 발생했습니다: " + e.getMessage());
+            return errorResponse;
+        }
     }
 } 

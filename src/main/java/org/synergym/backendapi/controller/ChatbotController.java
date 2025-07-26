@@ -54,7 +54,8 @@ public class ChatbotController {
 
             // 3. FastAPI 요청용 body 생성 (snake_case로 맞춤)
             Map<String, Object> fastApiRequest = new java.util.HashMap<>();
-            fastApiRequest.put("user_id", userId);
+            fastApiRequest.put("userId", userId);
+            fastApiRequest.put("historyId", historyId);
             fastApiRequest.put("diagnosis", diagnosisMap);
             fastApiRequest.put("recommended_exercise", recommendedExercise);
             fastApiRequest.put("message", requestDTO.getMessage());
@@ -65,9 +66,13 @@ public class ChatbotController {
             ChatResponseDTO aiResponse;
             if ("recommend".equals(type) || "summary".equals(type) || "comment_summary".equals(type)) {
                 aiResponse = youtubeClient.sendYoutubeRequest(fastApiRequest, type);
+                System.out.println("[DEBUG] YouTube 응답 - SessionId: " + aiResponse.getSessionId() + ", Response: " + aiResponse.getResponse());
             } else {
                 aiResponse = aiCoachClient.sendAiCoachRequest(fastApiRequest);
+                System.out.println("[DEBUG] AI Coach 응답 - SessionId: " + aiResponse.getSessionId() + ", Response: " + aiResponse.getResponse());
             }
+            
+            // 최종 ChatResponseDTO 출력 로그 제거
 
             // 6. 응답 반환 (세션ID도 포함)
             // Redis 저장 전에 세션ID 보장
@@ -88,6 +93,25 @@ public class ChatbotController {
                     chatbotRedisService.saveChatMessage(userId, aiResponse.getSessionId(), requestDTO.getMessage(), aiResponse.getResponse());
                 }
             }
+            
+            // YouTube 관련 정보 로깅
+            if ("recommend".equals(type) || "comment_summary".equals(type)) {
+                System.out.println("[DEBUG] YouTube 응답 정보:");
+                System.out.println("  - Type: " + aiResponse.getType());
+                System.out.println("  - Video URL: " + aiResponse.getVideoUrl());
+                System.out.println("  - Comment Count: " + aiResponse.getCommentCount());
+                System.out.println("  - YouTube Summary: " + aiResponse.getYoutubeSummary());
+            }
+            
+            // Spring에서 실제 JSON 직렬화 결과 확인
+            try {
+                ObjectMapper mapper = new ObjectMapper();
+                String jsonString = mapper.writeValueAsString(aiResponse);
+                System.out.println("[DEBUG] Spring에서 직렬화된 JSON: " + jsonString);
+            } catch (Exception e) {
+                System.out.println("[ERROR] JSON 직렬화 실패: " + e.getMessage());
+            }
+            
             return ResponseEntity.ok(aiResponse);
         } catch (Exception e) {
             ChatResponseDTO errorResponse = new ChatResponseDTO();
@@ -154,31 +178,67 @@ public class ChatbotController {
         try {
             Integer userId = requestDTO.getUserId();
             Integer historyId = requestDTO.getHistoryId();
+            
             // 1. 분석 이력 조회
             AnalysisHistoryDTO analysis = analysisHistoryService.getAnalysisHistoryById(historyId);
+            
             // 2. 진단/추천운동 추출
             String diagnosis = analysis.getDiagnosis();
             Map<String, Object> recommendedExercise = getRecommendedExerciseFromAnalysis(analysis);
+            
+            // 2-1. diagnosis가 JSON 문자열이면 Map으로 변환
+            Map<String, Object> diagnosisMap = null;
+            try {
+                if (diagnosis != null) {
+                    ObjectMapper objectMapper = new ObjectMapper();
+                    diagnosisMap = objectMapper.readValue(diagnosis, Map.class);
+                }
+            } catch (Exception e) {
+                System.out.println("[ERROR] diagnosis JSON 파싱 실패: " + e.getMessage());
+                diagnosisMap = new java.util.HashMap<>();
+            }
+            
             // 3. FastAPI 요청용 body 생성
             Map<String, Object> fastApiRequest = new java.util.HashMap<>();
             fastApiRequest.put("userId", userId);
             fastApiRequest.put("historyId", historyId);
             fastApiRequest.put("message", requestDTO.getMessage());
-            fastApiRequest.put("diagnosis", diagnosis);
+            fastApiRequest.put("diagnosis", diagnosisMap);
             fastApiRequest.put("recommended_exercise", recommendedExercise);
+            
+            System.out.println("[DEBUG] 댓글 요약 FastAPI 요청: " + fastApiRequest);
+            
             // 4. FastAPI 댓글 요약 엔드포인트 호출 (type: 'comment_summary')
             ChatResponseDTO aiResponse = youtubeClient.sendYoutubeRequest(fastApiRequest, "comment_summary");
-            // 5. AI 응답 Redis에 저장
-            if (aiResponse.getResponse() != null && !aiResponse.getResponse().isEmpty()) {
-                chatbotRedisService.saveChatMessage(userId, aiResponse.getSessionId(), null, aiResponse.getResponse());
+            
+            // 5. 세션ID 설정
+            String sessionId = chatbotRedisService.getActiveSession(userId);
+            if (sessionId == null || sessionId.isEmpty()) {
+                sessionId = chatbotRedisService.generateSessionId();
+                chatbotRedisService.setActiveSession(userId, sessionId);
             }
-            // 6. 응답 반환 (세션ID도 포함)
-            aiResponse.setSessionId(chatbotRedisService.getActiveSession(userId));
+            aiResponse.setSessionId(sessionId);
+            
+            // 6. AI 응답 Redis에 저장
+            if (aiResponse.getResponse() != null && !aiResponse.getResponse().isEmpty()) {
+                System.out.println("[DEBUG] Redis 저장 시도 - UserId: " + userId + ", SessionId: " + aiResponse.getSessionId());
+                chatbotRedisService.forceAddMessage(userId, aiResponse.getSessionId(), aiResponse.getResponse(), "bot", "text");
+                System.out.println("[DEBUG] Redis 저장 완료");
+            }
+            
+            // 7. YouTube 관련 정보 로깅
+            System.out.println("[DEBUG] 댓글 요약 응답 정보:");
+            System.out.println("  - Type: " + aiResponse.getType());
+            System.out.println("  - Video URL: " + aiResponse.getVideoUrl());
+            System.out.println("  - Comment Count: " + aiResponse.getCommentCount());
+            System.out.println("  - YouTube Summary: " + aiResponse.getYoutubeSummary());
+            
             return ResponseEntity.ok(aiResponse);
         } catch (Exception e) {
+            System.out.println("[ERROR] 댓글 요약 요청 실패: " + e.getMessage());
             ChatResponseDTO errorResponse = new ChatResponseDTO();
             errorResponse.setType("error");
-            errorResponse.setResponse("댓글 요약 중 오류가 발생했습니다. 다시 시도해 주세요.");
+            errorResponse.setResponse("댓글 요약 중 오류가 발생했습니다. 다시 시도해 주세요.\n" + e.getMessage());
             return ResponseEntity.ok(errorResponse);
         }
     }

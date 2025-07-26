@@ -93,11 +93,19 @@ public class ExerciseController {
     // 운동 이름과 정확히 일치 검색
     @GetMapping("/search/exact")
     public ResponseEntity<ExerciseDTO> getExerciseByExactName(@RequestParam String name) {
-        ExerciseDTO exercise = exerciseService.getExerciseByExactName(name);
-        if (exercise == null) {
+        try {
+            ExerciseDTO exercise = exerciseService.getExerciseByExactName(name);
+            if (exercise == null) {
+                return ResponseEntity.notFound().build();
+            }
+            return ResponseEntity.ok(exercise);
+        } catch (Exception e) {
+            // 로그 출력
+            System.err.println("[ERROR] 운동명으로 검색 중 에러 발생: " + e.getMessage());
+            e.printStackTrace();
+            // 500 에러 대신 404 반환
             return ResponseEntity.notFound().build();
         }
-        return ResponseEntity.ok(exercise);
     }
 
     /**

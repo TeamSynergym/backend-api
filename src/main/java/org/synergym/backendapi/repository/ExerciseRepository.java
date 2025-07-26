@@ -16,7 +16,7 @@ public interface ExerciseRepository extends JpaRepository<Exercise, Integer> {
     List<Exercise> findByCategory(String category);
     
     // 운동 이름과 정확히 일치
-    Exercise findByName(String name);
+    List<Exercise> findByName(String name);
     
     // 좋아요 수 기준 인기 운동 조회
     @Query("SELECT e FROM Exercise e " +
