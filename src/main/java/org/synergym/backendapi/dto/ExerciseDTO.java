@@ -29,6 +29,7 @@ public class ExerciseDTO {
     private String posture;  // 자세(선자세, 앉은자세, 누운자세)
     private String bodyPart;  // 부위 (camelCase로 수정)
     private String thumbnailUrl;  // 썸네일 url (camelCase로 수정)
+    private String url;  // 상세 정보 URL
     
     // 통계 필드 (인기 운동 조회 시 사용)
     private Long likeCount;  // 좋아요 수

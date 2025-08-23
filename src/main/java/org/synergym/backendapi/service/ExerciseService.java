@@ -46,6 +46,7 @@ public interface ExerciseService {
                 .posture(dto.getPosture())
                 .bodyPart(dto.getBodyPart())
                 .thumbnailUrl(dto.getThumbnailUrl())
+                .url(dto.getUrl())
                 .build();
     }
 
@@ -60,6 +61,7 @@ public interface ExerciseService {
                 .posture(exercise.getPosture())
                 .bodyPart(exercise.getBodyPart())
                 .thumbnailUrl(exercise.getThumbnailUrl())
+                .url(exercise.getUrl())
                 .createdAt(exercise.getCreatedAt())
                 .updatedAt(exercise.getUpdatedAt())
                 .useYn(exercise.getUseYn())
@@ -77,6 +79,7 @@ public interface ExerciseService {
                 .posture(exercise.getPosture())
                 .bodyPart(exercise.getBodyPart())
                 .thumbnailUrl(exercise.getThumbnailUrl())
+                .url(exercise.getUrl())
                 .createdAt(exercise.getCreatedAt())
                 .updatedAt(exercise.getUpdatedAt())
                 .useYn(exercise.getUseYn())

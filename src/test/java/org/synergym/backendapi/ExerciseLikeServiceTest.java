@@ -38,228 +38,228 @@ public class ExerciseLikeServiceTest {
 
     @BeforeAll
     static void setUp() {
-        System.out.println("=== ExerciseLikeService 테스트 시작 ===");
+        System.out.println("=== ExerciseLikeService Test Start ===");
     }
 
     @BeforeEach
     void createTestData() {
-        // 테스트용 사용자 생성
+        // Create test user
         testUser = userRepository.save(
                 User.builder()
                         .email("testuser@test.com")
-                        .name("테스트유저")
+                        .name("TestUser")
                         .password("test123")
-                        .goal("건강관리")
+                        .goal("Health Management")
                         .build()
         );
 
-        // 테스트용 운동 생성
+        // Create test exercise
         testExercise = exerciseRepository.save(
                 Exercise.builder()
-                        .name("스쿼트")
-                        .category("하체")
-                        .description("하체 근력 운동")
-                        .difficulty("초급")
-                        .posture("선자세")
-                        .bodyPart("하체")
-                        .thumbnailUrl("https://example.com/squat.jpg")
-                        .build()
+                .name("Squat")
+                .category("Strength Training")  // Add category field
+                .difficulty("Beginner")
+                .bodyPart("Lower Body")
+                .description("Lower body strength exercise")
+                .thumbnailUrl("https://example.com/squat.jpg")
+                .url("https://example.com/squat")
+                .build()
         );
 
-        // 테스트용 DTO 생성
+        // Create test DTO
         testLikeDTO = ExerciseLikeDTO.builder()
                 .userId(testUser.getId())
                 .exerciseId(testExercise.getId())
                 .build();
 
-        System.out.println("테스트 데이터 생성 완료:");
-        System.out.println("- 사용자 ID: " + testUser.getId() + ", 이름: " + testUser.getName());
-        System.out.println("- 운동 ID: " + testExercise.getId() + ", 이름: " + testExercise.getName());
+        System.out.println("Test data created:");
+        System.out.println("- User ID: " + testUser.getId() + ", Name: " + testUser.getName());
+        System.out.println("- Exercise ID: " + testExercise.getId() + ", Name: " + testExercise.getName());
     }
 
     @AfterEach
     void cleanUp() {
-        // 테스트 후 데이터 정리
+        // Clean up test data
         exerciseLikeRepository.deleteAll();
         exerciseRepository.deleteAll();
         userRepository.deleteAll();
-        System.out.println("테스트 데이터 정리 완료\n");
+        System.out.println("Test data cleaned up\n");
     }
 
     @Test
     @Order(1)
-    @DisplayName("좋아요 추가 테스트")
+    @DisplayName("Add Like Test")
     void add() {
-        System.out.println("--- 좋아요 추가 테스트 ---");
+        System.out.println("--- Add Like Test ---");
         
-        // 좋아요 추가 전 상태 확인
+        // Check state before adding
         boolean beforeAdd = exerciseLikeService.isLiked(testUser.getId(), testExercise.getId());
-        System.out.println("좋아요 추가 전 상태: " + beforeAdd);
+        System.out.println("State before adding: " + beforeAdd);
         assertFalse(beforeAdd);
 
-        // 좋아요 추가
+        // Add like
         exerciseLikeService.add(testLikeDTO);
-        System.out.println("좋아요 추가 완료");
+        System.out.println("Like added");
 
-        // 좋아요 추가 후 상태 확인
+        // Check state after adding
         boolean afterAdd = exerciseLikeService.isLiked(testUser.getId(), testExercise.getId());
-        System.out.println("좋아요 추가 후 상태: " + afterAdd);
+        System.out.println("State after adding: " + afterAdd);
         assertTrue(afterAdd);
 
-        // 사용자별 좋아요 목록 확인
+        // Check user's likes list
         var userLikes = exerciseLikeService.getByUser(testUser.getId());
-        System.out.println("사용자별 좋아요 개수: " + userLikes.size());
+        System.out.println("Number of likes for user: " + userLikes.size());
         assertEquals(1, userLikes.size());
         assertEquals(testExercise.getId(), userLikes.get(0).getExerciseId());
 
-        // 운동별 좋아요 목록 확인
+        // Check exercise's likes list
         var exerciseLikes = exerciseLikeService.getByExercise(testExercise.getId());
-        System.out.println("운동별 좋아요 개수: " + exerciseLikes.size());
+        System.out.println("Number of likes for exercise: " + exerciseLikes.size());
         assertEquals(1, exerciseLikes.size());
         assertEquals(testUser.getId(), exerciseLikes.get(0).getUserId());
     }
 
     @Test
     @Order(2)
-    @DisplayName("좋아요 삭제 테스트")
+    @DisplayName("Delete Like Test")
     void delete() {
-        System.out.println("--- 좋아요 삭제 테스트 ---");
+        System.out.println("--- Delete Like Test ---");
         
-        // 먼저 좋아요 추가
+        // First add like
         exerciseLikeService.add(testLikeDTO);
-        System.out.println("좋아요 추가 완료");
+        System.out.println("Like added");
 
-        // 삭제 전 상태 확인
+        // Check state before deletion
         boolean beforeDelete = exerciseLikeService.isLiked(testUser.getId(), testExercise.getId());
-        System.out.println("삭제 전 상태: " + beforeDelete);
+        System.out.println("State before deletion: " + beforeDelete);
         assertTrue(beforeDelete);
 
-        // 좋아요 삭제
+        // Delete like
         exerciseLikeService.delete(testUser.getId(), testExercise.getId());
-        System.out.println("좋아요 삭제 완료");
+        System.out.println("Like deleted");
 
-        // 삭제 후 상태 확인
+        // Check state after deletion
         boolean afterDelete = exerciseLikeService.isLiked(testUser.getId(), testExercise.getId());
-        System.out.println("삭제 후 상태: " + afterDelete);
+        System.out.println("State after deletion: " + afterDelete);
         assertFalse(afterDelete);
 
-        // 사용자별 좋아요 목록 확인
+        // Check user's likes list
         var userLikes = exerciseLikeService.getByUser(testUser.getId());
-        System.out.println("삭제 후 사용자별 좋아요 개수: " + userLikes.size());
+        System.out.println("Number of likes for user after deletion: " + userLikes.size());
         assertTrue(userLikes.isEmpty());
     }
 
     @Test
     @Order(3)
-    @DisplayName("사용자별 좋아요 조회 테스트")
+    @DisplayName("Get Likes by User Test")
     void getByUser() {
-        System.out.println("--- 사용자별 좋아요 조회 테스트 ---");
+        System.out.println("--- Get Likes by User Test ---");
         
-        // 좋아요 추가
+        // Add like
         exerciseLikeService.add(testLikeDTO);
-        System.out.println("좋아요 추가 완료");
+        System.out.println("Like added");
 
-        // 사용자별 좋아요 조회
+        // Get user's likes
         var userLikes = exerciseLikeService.getByUser(testUser.getId());
-        System.out.println("조회된 좋아요 개수: " + userLikes.size());
+        System.out.println("Number of likes retrieved: " + userLikes.size());
         assertFalse(userLikes.isEmpty());
         assertEquals(1, userLikes.size());
 
-        // 좋아요 상세 정보 확인
+        // Check like details
         var like = userLikes.get(0);
-        System.out.println("좋아요 상세 정보:");
-        System.out.println("- 사용자 ID: " + like.getUserId());
-        System.out.println("- 운동 ID: " + like.getExerciseId());
+        System.out.println("Like details:");
+        System.out.println("- User ID: " + like.getUserId());
+        System.out.println("- Exercise ID: " + like.getExerciseId());
         assertEquals(testUser.getId(), like.getUserId());
         assertEquals(testExercise.getId(), like.getExerciseId());
     }
 
     @Test
     @Order(4)
-    @DisplayName("운동별 좋아요 조회 테스트")
+    @DisplayName("Get Likes by Exercise Test")
     void getByExercise() {
-        System.out.println("--- 운동별 좋아요 조회 테스트 ---");
+        System.out.println("--- Get Likes by Exercise Test ---");
         
-        // 좋아요 추가
+        // Add like
         exerciseLikeService.add(testLikeDTO);
-        System.out.println("좋아요 추가 완료");
+        System.out.println("Like added");
 
-        // 운동별 좋아요 조회
+        // Get exercise's likes
         var exerciseLikes = exerciseLikeService.getByExercise(testExercise.getId());
-        System.out.println("조회된 좋아요 개수: " + exerciseLikes.size());
+        System.out.println("Number of likes retrieved: " + exerciseLikes.size());
         assertFalse(exerciseLikes.isEmpty());
         assertEquals(1, exerciseLikes.size());
 
-        // 좋아요 상세 정보 확인
+        // Check like details
         var like = exerciseLikes.get(0);
-        System.out.println("좋아요 상세 정보:");
-        System.out.println("- 사용자 ID: " + like.getUserId());
-        System.out.println("- 운동 ID: " + like.getExerciseId());
+        System.out.println("Like details:");
+        System.out.println("- User ID: " + like.getUserId());
+        System.out.println("- Exercise ID: " + like.getExerciseId());
         assertEquals(testUser.getId(), like.getUserId());
         assertEquals(testExercise.getId(), like.getExerciseId());
     }
 
     @Test
     @Order(5)
-    @DisplayName("좋아요 상태 확인 테스트")
+    @DisplayName("Check Like Status Test")
     void isLiked() {
-        System.out.println("--- 좋아요 상태 확인 테스트 ---");
+        System.out.println("--- Check Like Status Test ---");
         
-        // 좋아요 추가 전 상태 확인
+        // Check state before adding
         boolean beforeAdd = exerciseLikeService.isLiked(testUser.getId(), testExercise.getId());
-        System.out.println("좋아요 추가 전 상태: " + beforeAdd);
+        System.out.println("State before adding: " + beforeAdd);
         assertFalse(beforeAdd);
 
-        // 좋아요 추가
+        // Add like
         exerciseLikeService.add(testLikeDTO);
-        System.out.println("좋아요 추가 완료");
+        System.out.println("Like added");
 
-        // 좋아요 추가 후 상태 확인
+        // Check state after adding
         boolean afterAdd = exerciseLikeService.isLiked(testUser.getId(), testExercise.getId());
-        System.out.println("좋아요 추가 후 상태: " + afterAdd);
+        System.out.println("State after adding: " + afterAdd);
         assertTrue(afterAdd);
 
-        // 존재하지 않는 사용자/운동 조합 확인 (예외 발생 예상)
+        // Check non-existent user/exercise combination (expected exception)
         assertThrows(EntityNotFoundException.class, () -> {
             exerciseLikeService.isLiked(999, 999);
-        }, "존재하지 않는 사용자/운동에 대해서는 예외가 발생해야 합니다");
-        System.out.println("존재하지 않는 사용자/운동에 대한 예외 발생 확인");
+        }, "An exception should be thrown for non-existent user/exercise combinations");
+        System.out.println("Exception for non-existent user/exercise combination confirmed");
     }
 
     @Test
     @Order(6)
-    @DisplayName("중복 좋아요 방지 테스트")
+    @DisplayName("Duplicate Like Prevention Test")
     void duplicateLikePrevention() {
-        System.out.println("--- 중복 좋아요 방지 테스트 ---");
+        System.out.println("--- Duplicate Like Prevention Test ---");
         
-        // 첫 번째 좋아요 추가
+        // First add like
         exerciseLikeService.add(testLikeDTO);
-        System.out.println("첫 번째 좋아요 추가 완료");
+        System.out.println("First like added");
 
-        // 좋아요 개수 확인
+        // Check number of likes
         var userLikesBefore = exerciseLikeService.getByUser(testUser.getId());
-        System.out.println("첫 번째 추가 후 좋아요 개수: " + userLikesBefore.size());
+        System.out.println("Number of likes after first addition: " + userLikesBefore.size());
         assertEquals(1, userLikesBefore.size());
 
-        // 중복 좋아요 시도 (예외 발생 예상)
+        // Try duplicate like (expected exception)
         assertThrows(IllegalStateException.class, () -> {
             exerciseLikeService.add(testLikeDTO);
-        }, "중복 좋아요 시도 시 예외가 발생해야 합니다");
-        System.out.println("중복 좋아요 시도 시 예외 발생 확인");
+        }, "An exception should be thrown for duplicate likes");
+        System.out.println("Exception for duplicate like confirmed");
 
-        // 좋아요 개수 확인 (여전히 1개여야 함)
+        // Check number of likes (should still be 1)
         var userLikesAfter = exerciseLikeService.getByUser(testUser.getId());
-        System.out.println("중복 시도 후 좋아요 개수: " + userLikesAfter.size());
+        System.out.println("Number of likes after duplicate attempt: " + userLikesAfter.size());
         assertEquals(1, userLikesAfter.size());
 
-        // 좋아요 상태 확인
+        // Check like status
         boolean isLiked = exerciseLikeService.isLiked(testUser.getId(), testExercise.getId());
-        System.out.println("중복 시도 후 좋아요 상태: " + isLiked);
+        System.out.println("Like status after duplicate attempt: " + isLiked);
         assertTrue(isLiked);
     }
 
     @AfterAll
     static void tearDown() {
-        System.out.println("=== ExerciseLikeService 테스트 완료 ===");
+        System.out.println("=== ExerciseLikeService Test Complete ===");
     }
 }
