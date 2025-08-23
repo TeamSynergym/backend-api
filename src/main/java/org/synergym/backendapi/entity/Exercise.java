@@ -7,10 +7,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="Exercises")
+@Table(name = "Exercises")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Exercise extends BaseEntity{
+public class Exercise extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -38,8 +38,12 @@ public class Exercise extends BaseEntity{
     @Column(name = "thumbnail_url", length = 255)
     private String thumbnailUrl;
 
+    @Column(name = "url", length = 255)
+    private String url;
+
     @Builder
-    public Exercise(String name, String category, String description, String difficulty, String posture, String bodyPart, String thumbnailUrl) {
+    public Exercise(String name, String category, String description, String difficulty, String posture,
+            String bodyPart, String thumbnailUrl, String url) {
         this.name = name;
         this.category = category;
         this.description = description;
@@ -47,6 +51,7 @@ public class Exercise extends BaseEntity{
         this.posture = posture;
         this.bodyPart = bodyPart;
         this.thumbnailUrl = thumbnailUrl;
+        this.url = url;
     }
 
     @Override

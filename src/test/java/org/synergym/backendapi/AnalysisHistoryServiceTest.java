@@ -25,14 +25,13 @@ public class AnalysisHistoryServiceTest {
 
     private User savedUser;
 
-
     @Test
-    void createAnalysisHistory(){
-//        savedUser = userRepository.save(User.builder()
-//                .email("jy@test.com")
-//                .name("정윤")
-//                .password("pwpw")
-//                .build());
+    void createAnalysisHistory() {
+        // savedUser = userRepository.save(User.builder()
+        // .email("jy@test.com")
+        // .name("정윤")
+        // .password("pwpw")
+        // .build());
 
         AnalysisHistoryDTO requestDto = AnalysisHistoryDTO.builder()
                 .spineCurvScore(77)

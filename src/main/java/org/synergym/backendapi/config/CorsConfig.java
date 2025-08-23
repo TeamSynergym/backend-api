@@ -31,7 +31,7 @@ public class CorsConfig implements WebMvcConfigurer {
               "http://192.168.2.168:8080",
 
               // CORS 매번 바뀐다.
-              "https://df7fc7b36263.ngrok-free.app"
+              "https://somerset-teacher-golden-pale.trycloudflare.com"
               )
             .allowedMethods("GET","POST","PUT","DELETE","OPTIONS","PATCH")
             .allowedHeaders("*")
