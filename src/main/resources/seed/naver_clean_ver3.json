@@ -1,7 +1,7 @@
 [
   {
     "name": "고양이 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140652632_JQACQUJJE.jpg/YOGA_002_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511217/1.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "복부",
@@ -11,7 +11,7 @@
   },
   {
     "name": "누워서 발끝 치기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141120948_NEOI19NSM.jpg/YOGA_081_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511337/6.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -21,7 +21,7 @@
   },
   {
     "name": "발끝 치기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141030307_YP7W026Q1.jpg/YOGA_058_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511287/2.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "발",
@@ -31,7 +31,7 @@
   },
   {
     "name": "코브라 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140947220_8MAX9CR1N.jpg/YOGA_045_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511330/5.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "허리",
@@ -41,7 +41,7 @@
   },
   {
     "name": "케겔 운동",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141038852_1YUVRC7P3.jpg/YOGA_064_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511317/3.jpg",
     "difficulty": "초급",
     "posture": "선 자세",
     "bodyPart": null,
@@ -51,7 +51,7 @@
   },
   {
     "name": "낙타 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140713258_7966ZH0BS.jpg/YOGA_009_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511231/12.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "복부",
@@ -61,7 +61,7 @@
   },
   {
     "name": "바람 빼기 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141031329_6259KDYDZ.jpg/YOGA_059_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511324/4.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -71,7 +71,7 @@
   },
   {
     "name": "나비 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140712306_T9AC6EG4N.jpg/YOGA_008_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511273/18.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "허벅지",
@@ -81,7 +81,7 @@
   },
   {
     "name": "비둘기 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140833325_WS61F5D73.jpg/YOGA_025_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511218/10.jpg",
     "difficulty": "중급",
     "posture": "앉은 자세",
     "bodyPart": "옆구리",
@@ -91,7 +91,7 @@
   },
   {
     "name": "복식 호흡",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140830185_UFXWN09R3.jpg/YOGA_024_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511260/16.jpg",
     "difficulty": "초급",
     "posture": "호흡",
     "bodyPart": null,
@@ -101,7 +101,7 @@
   },
   {
     "name": "쟁기 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140934454_VWVSUQZFM.jpg/YOGA_042_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511350/8.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "복부",
@@ -111,7 +111,7 @@
   },
   {
     "name": "물고기 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140749191_IF8213K14.jpg/YOGA_017_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511267/17.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -121,7 +121,7 @@
   },
   {
     "name": "고관절 운동",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141011295_17AJLGBLM.jpg/YOGA_053_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511294/21.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": null,
@@ -131,7 +131,7 @@
   },
   {
     "name": "머리로 서기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140739893_ORNJ8DSUB.jpg/YOGA_015_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511344/7.jpg",
     "difficulty": "상급",
     "posture": "선 자세",
     "bodyPart": "전신",
@@ -141,7 +141,7 @@
   },
   {
     "name": "아기 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140855606_FZEXIQQUU.jpg/YOGA_032_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511244/14.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -151,7 +151,7 @@
   },
   {
     "name": "준비 운동",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140758219_EPZAYHBWB.jpg/YOGA_044_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511302/22.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": null,
@@ -161,7 +161,7 @@
   },
   {
     "name": "누워서 전신 스트레칭",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141121529_NFO9F6Q5B.jpg/YOGA_082_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511317/29.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -171,7 +171,7 @@
   },
   {
     "name": "발목 돌리기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140821169_V51O0SXY2.jpg/YOGA_021_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511326/43.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "발",
@@ -181,7 +181,7 @@
   },
   {
     "name": "복근 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140828316_3A9VCKVJX.jpg/YOGA_023_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511315/26.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "복부",
@@ -191,7 +191,7 @@
   },
   {
     "name": "금강좌",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140702698_MVOSNX1V2.jpg/YOGA_005_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511318/31.jpg",
     "difficulty": "초급",
     "posture": "호흡",
     "bodyPart": "종아리",
@@ -201,7 +201,7 @@
   },
   {
     "name": "활 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141010414_0WRXIKJNT.jpg/YOGA_051_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511253/15.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "등",
@@ -211,7 +211,7 @@
   },
   {
     "name": "앉은 전굴 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140914778_7HWJAJNZY.jpg/YOGA_036_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511335/58.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "복부",
@@ -221,7 +221,7 @@
   },
   {
     "name": "모관 운동",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141016050_PV8WWXVIF.jpg/YOGA_055_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511356/9.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "다리",
@@ -231,7 +231,7 @@
   },
   {
     "name": "발바닥 두드리기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141145346_A2PA0K5BF.jpg/YOGA_091_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511335/57.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "발",
@@ -241,7 +241,7 @@
   },
   {
     "name": "고치법",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141120240_LJ47CYOAG.jpg/YOGA_080_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511342/67.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": null,
@@ -251,7 +251,7 @@
   },
   {
     "name": "굴렁쇠 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141202265_2GQXKFYID.jpg/YOGA_097_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511334/55.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -261,7 +261,7 @@
   },
   {
     "name": "교호 호흡",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141207110_HY18379KG.jpg/YOGA_099_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511319/32.jpg",
     "difficulty": "중급",
     "posture": "호흡",
     "bodyPart": null,
@@ -271,7 +271,7 @@
   },
   {
     "name": "합장합족 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141040782_JUG4F9QGN.jpg/YOGA_067_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511314/24.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -281,7 +281,7 @@
   },
   {
     "name": "발끝으로 서기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141104909_L5UGEW6XE.jpg/YOGA_074_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511330/49.jpg",
     "difficulty": "상급",
     "posture": "선 자세",
     "bodyPart": null,
@@ -291,7 +291,7 @@
   },
   {
     "name": "전사 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140940090_1VLL2X65K.jpg/YOGA_043_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511308/23.jpg",
     "difficulty": "중급",
     "posture": "선 자세",
     "bodyPart": "다리",
@@ -301,7 +301,7 @@
   },
   {
     "name": "앉은 산 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141037454_T1UTEX9RD.jpg/YOGA_061_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511331/50.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "팔",
@@ -311,7 +311,7 @@
   },
   {
     "name": "메뚜기 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140743942_FN87QPN6B.jpg/YOGA_016_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511322/37.jpg",
     "difficulty": "중급",
     "posture": "누운 자세",
     "bodyPart": "다리",
@@ -321,7 +321,7 @@
   },
   {
     "name": "완전한 개 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141200139_C2OKWB0PU.jpg/YOGA_096_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511322/36.jpg",
     "difficulty": "상급",
     "posture": "선 자세",
     "bodyPart": "다리",
@@ -331,7 +331,7 @@
   },
   {
     "name": "발끝 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141028884_13F4P158E.jpg/YOGA_057_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511316/27.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "발",
@@ -341,7 +341,7 @@
   },
   {
     "name": "어깨로 서기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140917922_AD9FZU924.jpg/YOGA_037_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511320/33.jpg",
     "difficulty": "중급",
     "posture": "누운 자세",
     "bodyPart": "전신",
@@ -351,7 +351,7 @@
   },
   {
     "name": "악어 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140910142_2WMZA47DI.jpg/YOGA_035_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511328/46.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "복부",
@@ -361,7 +361,7 @@
   },
   {
     "name": "나무 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140706859_JKWBOGY8S.jpg/YOGA_007_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511321/35.jpg",
     "difficulty": "초급",
     "posture": "선 자세",
     "bodyPart": "다리",
@@ -371,7 +371,7 @@
   },
   {
     "name": "완전 휴식 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140922396_BILP4MPRZ.jpg/YOGA_038_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511351/80.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -381,7 +381,7 @@
   },
   {
     "name": "누운 금강 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140719680_4BBCP827H.jpg/YOGA_010_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511314/25.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "허벅지",
@@ -391,7 +391,7 @@
   },
   {
     "name": "독수리 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140733264_7RJU63K24.jpg/YOGA_014_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511333/53.jpg",
     "difficulty": "상급",
     "posture": "선 자세",
     "bodyPart": "전신",
@@ -401,7 +401,7 @@
   },
   {
     "name": "한쪽 다리 틀어 비틀기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141141168_OPGTOU09S.jpg/YOGA_089_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511332/52.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "옆구리",
@@ -411,7 +411,7 @@
   },
   {
     "name": "고양이 등 펴기 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141136363_X05E9G6MM.jpg/YOGA_088_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511327/44.jpg",
     "difficulty": "중급",
     "posture": "앉은 자세",
     "bodyPart": "허리",
@@ -421,7 +421,7 @@
   },
   {
     "name": "아치 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140904294_LPLLP3V31.jpg/YOGA_034_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511318/30.jpg",
     "difficulty": "상급",
     "posture": "누운 자세",
     "bodyPart": "엉덩이",
@@ -431,7 +431,7 @@
   },
   {
     "name": "요가 무드라 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140927871_DV6DEE3WQ.jpg/YOGA_040_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511329/47.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "팔",
@@ -441,7 +441,7 @@
   },
   {
     "name": "반박쥐 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141022878_MXY5A04O6.jpg/YOGA_056_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511333/54.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "허벅지",
@@ -451,7 +451,7 @@
   },
   {
     "name": "구름다리 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140659673_W7EFZZ4XP.jpg/YOGA_003_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511325/41.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "엉덩이",
@@ -461,7 +461,7 @@
   },
   {
     "name": "사자 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140839497_7L41ONUAV.jpg/YOGA_026_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511320/34.jpg",
     "difficulty": "중급",
     "posture": "앉은 자세",
     "bodyPart": null,
@@ -471,7 +471,7 @@
   },
   {
     "name": "소머리 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140852512_7WCTIV8NN.jpg/YOGA_031_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511316/28.jpg",
     "difficulty": "중급",
     "posture": "앉은 자세",
     "bodyPart": "허벅지",
@@ -481,7 +481,7 @@
   },
   {
     "name": "파반묵타",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140810008_D66PGBQS1.jpg/YOGA_065_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511327/45.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": null,
@@ -491,7 +491,7 @@
   },
   {
     "name": "보트 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140825242_WLYIPG7VN.jpg/YOGA_022_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511238/13.jpg",
     "difficulty": "중급",
     "posture": "누운 자세",
     "bodyPart": "복부",
@@ -501,7 +501,7 @@
   },
   {
     "name": "기도 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140706715_DEI53EBRP.jpg/YOGA_006_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511349/78.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "팔",
@@ -511,7 +511,7 @@
   },
   {
     "name": "다리 기혈 풀어주기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140720987_6BD6IWO0G.jpg/YOGA_011_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511340/63.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "다리",
@@ -521,7 +521,7 @@
   },
   {
     "name": "오장육부 자극하기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141122852_A48XWQNEI.jpg/YOGA_083_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1755971247/%EC%98%A4%EC%9E%A5%EC%9C%A1%EB%B6%80_%EC%9E%90%EA%B7%B9%ED%95%98%EA%B8%B0_rdasyo.jpg",
     "difficulty": "초급",
     "posture": "선 자세",
     "bodyPart": "복부",
@@ -531,7 +531,7 @@
   },
   {
     "name": "한 주먹 감싸고 상체 숙이기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141145874_K0I6X3BE4.jpg/YOGA_092_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511338/61.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "복부",
@@ -541,7 +541,7 @@
   },
   {
     "name": "삼각 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140841169_EZ44YOVDG.jpg/YOGA_027_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511287/20.jpg",
     "difficulty": "초급",
     "posture": "선 자세",
     "bodyPart": "전신",
@@ -551,7 +551,7 @@
   },
   {
     "name": "다리 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140725828_WUIL1LFBK.jpg/YOGA_013_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511336/59.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "엉덩이",
@@ -561,7 +561,7 @@
   },
   {
     "name": "아래를 향한 개 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140901410_YLEG8Q0TR.jpg/YOGA_033_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1755971448/%EC%95%84%EB%9E%98%EB%A5%BC_%ED%96%A5%ED%95%9C_%EA%B0%9C_%EC%9E%90%EC%84%B8_k3ux22.jpg",
     "difficulty": "중급",
     "posture": "선 자세",
     "bodyPart": "다리",
@@ -571,7 +571,7 @@
   },
   {
     "name": "누워서 복식 호흡",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141014771_X8WAY8ZLF.jpg/YOGA_054_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511351/81.jpg",
     "difficulty": "초급",
     "posture": "호흡",
     "bodyPart": null,
@@ -581,7 +581,7 @@
   },
   {
     "name": "결가부좌",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140651875_CY03O5N8F.jpg/YOGA_001_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511323/39.jpg",
     "difficulty": "중급",
     "posture": "호흡",
     "bodyPart": null,
@@ -591,7 +591,7 @@
   },
   {
     "name": "팔 옆으로 벌렸다 모으기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140953864_X86WFBIEA.jpg/YOGA_047_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1755971568/%ED%8C%94%EC%98%86%EC%9C%BC%EB%A1%9C_x9tmiq.png",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "팔",
@@ -601,7 +601,7 @@
   },
   {
     "name": "균형 잡기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140659676_G3V3S3HSP.jpg/YOGA_004_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511348/76.jpg",
     "difficulty": "중급",
     "posture": "누운 자세",
     "bodyPart": "복부",
@@ -611,7 +611,7 @@
   },
   {
     "name": "허리 흔들기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141205645_98YYV2YCT.jpg/YOGA_098_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511346/74.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "허리",
@@ -621,7 +621,7 @@
   },
   {
     "name": "반달 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140754905_WTZV16KU6.jpg/YOGA_020_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1755971624/%EB%B0%98%EB%8B%AC%EC%9E%90%EC%84%B8_hh4lfm.jpg",
     "difficulty": "초급",
     "posture": "선 자세",
     "bodyPart": "옆구리",
@@ -631,7 +631,7 @@
   },
   {
     "name": "옆으로 누운 휴식 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141038271_500F62LZ5.jpg/YOGA_063_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511329/48.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -641,7 +641,7 @@
   },
   {
     "name": "박쥐 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140750859_GSUYH33Y9.jpg/YOGA_018_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511340/64.jpg",
     "difficulty": "중급",
     "posture": "앉은 자세",
     "bodyPart": "허벅지",
@@ -651,7 +651,7 @@
   },
   {
     "name": "반가부좌",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140752081_VQ99A10UL.jpg/YOGA_019_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511334/56.jpg",
     "difficulty": "초급",
     "posture": "호흡",
     "bodyPart": null,
@@ -661,7 +661,7 @@
   },
   {
     "name": "상체 기울이기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140843356_W0Q4BHLSC.jpg/YOGA_028_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511345/72.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "복부",
@@ -671,7 +671,7 @@
   },
   {
     "name": "코브라 변형 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141127986_W2HFXWPLX.jpg/YOGA_085_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511326/42.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": "옆구리",
@@ -681,7 +681,7 @@
   },
   {
     "name": "풀무 호흡",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141213942_1HGGAII1Y.jpg/YOGA_100_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511325/40.jpg",
     "difficulty": "중급",
     "posture": "호흡",
     "bodyPart": null,
@@ -691,7 +691,7 @@
   },
   {
     "name": "의자 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140932003_EK0DP3Y2V.jpg/YOGA_041_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511323/38.jpg",
     "difficulty": "중급",
     "posture": "선 자세",
     "bodyPart": "허벅지",
@@ -701,7 +701,7 @@
   },
   {
     "name": "엎드린 악어 수정 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141132962_5SUALYXQD.jpg/YOGA_087_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511341/65.jpg",
     "difficulty": "중급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -711,7 +711,7 @@
   },
   {
     "name": "허리 비틀기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140955881_M6QP5S7LP.jpg/YOGA_048_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511354/86.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "허리",
@@ -721,7 +721,7 @@
   },
   {
     "name": "서서 상체 비틀기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140848121_91R24SLOV.jpg/YOGA_029_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1755971624/%EB%B0%98%EB%8B%AC%EC%9E%90%EC%84%B8_hh4lfm.jpg",
     "difficulty": "초급",
     "posture": "선 자세",
     "bodyPart": "허리",
@@ -731,7 +731,7 @@
   },
   {
     "name": "다리 들어올리기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315140725441_1P9QYL5DK.jpg/YOGA_012_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511344/70.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "엉덩이",
@@ -741,7 +741,7 @@
   },
   {
     "name": "T자 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141055256_NKB8NPTIM.jpg/YOGA_071_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511348/77.jpg",
     "difficulty": "상급",
     "posture": "선 자세",
     "bodyPart": null,
@@ -751,7 +751,7 @@
   },
   {
     "name": "감춘 연꽃 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141129714_2W449GZOR.jpg/YOGA_086_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511343/69.jpg",
     "difficulty": "중급",
     "posture": "앉은 자세",
     "bodyPart": null,
@@ -761,7 +761,7 @@
   },
   {
     "name": "바람 빼기 변형 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141125186_I7BN3WYV5.jpg/YOGA_084_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511339/62.jpg",
     "difficulty": "중급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -771,7 +771,7 @@
   },
   {
     "name": "활 당기는 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141007229_KQUZ0C905.jpg/YOGA_050_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1755971748/%ED%99%9C%EB%8B%B9%EA%B8%B0%EB%8A%94%EC%9E%90%EC%84%B8_ouj2p6.jpg",
     "difficulty": "상급",
     "posture": "선 자세",
     "bodyPart": "전신",
@@ -781,7 +781,7 @@
   },
   {
     "name": "합장하고 앉아 힘주기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141039649_BQ3JCPTPQ.jpg/YOGA_066_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1755971799/%ED%95%A9%EC%9E%A5%ED%95%98%EA%B3%A0_hs9j9f.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": null,
@@ -791,7 +791,7 @@
   },
   {
     "name": "정뇌 호흡",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141115398_P46ASKTIU.jpg/YOGA_078_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511346/73.jpg",
     "difficulty": "중급",
     "posture": "호흡",
     "bodyPart": null,
@@ -801,7 +801,7 @@
   },
   {
     "name": "양다리 벌려 선 전굴 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141055800_QGYTQ4ZLM.jpg/YOGA_072_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1755971867/%EC%96%91_%EB%8B%A4%EB%A6%AC_%EB%B2%8C%EB%A0%A4_cqrqya.jpg",
     "difficulty": "상급",
     "posture": "선 자세",
     "bodyPart": "다리",
@@ -811,7 +811,7 @@
   },
   {
     "name": "회진법",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141115555_B9D7K7KL4.jpg/YOGA_079_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511345/71.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": null,
@@ -821,7 +821,7 @@
   },
   {
     "name": "엎드린 휴식 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141038042_KU6FM37T6.jpg/YOGA_062_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511347/75.jpg",
     "difficulty": "초급",
     "posture": "누운 자세",
     "bodyPart": null,
@@ -831,7 +831,7 @@
   },
   {
     "name": "반거북이 자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141115083_7B7J72ZN0.jpg/YOGA_077_pic_1.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511337/60.jpg",
     "difficulty": "초급",
     "posture": "앉은 자세",
     "bodyPart": "복부",
@@ -841,7 +841,7 @@
   },
   {
     "name": "깍지 끼고 등 뒤로 손 뻗기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141332699_W4ZP1A06T.jpg/strch005_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511359/95.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "가슴, \n                                        어깨",
@@ -851,7 +851,7 @@
   },
   {
     "name": "팔꿈치 잡고 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141336067_K2NW66BC6.jpg/strch008_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511227/114.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "어깨",
@@ -861,7 +861,7 @@
   },
   {
     "name": "사이드 런지",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141403023_7TH07LL5O.jpg/strch025_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511299/216.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "고관절",
@@ -871,7 +871,7 @@
   },
   {
     "name": "엎드려 몸통 올리기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141344625_1YZO8TC4N.jpg/strch014_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511223/108.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "복부",
@@ -881,7 +881,7 @@
   },
   {
     "name": "발등 바닥에 대고 무릎 꿇고 앉기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141418462_9UHC9FKXN.jpg/strch034_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511221/104.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "허벅지, \n                                        발목",
@@ -891,7 +891,7 @@
   },
   {
     "name": "한 발로 서서 발목 잡고 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141409063_A4H1M6919.jpg/strch029_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511227/113.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "허벅지, \n                                        무릎",
@@ -901,7 +901,7 @@
   },
   {
     "name": "머리 잡고 목 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141326758_YOEMTMW3I.jpg/strch003_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511228/115.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "목",
@@ -911,7 +911,7 @@
   },
   {
     "name": "무릎 바닥에 대고 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141407945_CF94DEIAW.jpg/strch028_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511226/112.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "허벅지",
@@ -921,7 +921,7 @@
   },
   {
     "name": "앞으로 목 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141324510_6U0RC0PGT.jpg/strch001_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511360/96.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "목",
@@ -931,7 +931,7 @@
   },
   {
     "name": "몸 옆으로 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141347730_8R9JW1VFX.jpg/strch015_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511222/105.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "복부, \n                                        등",
@@ -941,7 +941,7 @@
   },
   {
     "name": "벽 밀기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141415696_EC53LKORO.jpg/strch033_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511358/92.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "종아리",
@@ -951,7 +951,7 @@
   },
   {
     "name": "서서 몸통 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141413650_LYAJT3T38.jpg/strch032_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511233/123.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "허벅지, \n                                        허리",
@@ -961,7 +961,7 @@
   },
   {
     "name": "고양이자세",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141353521_PU7MZB1EK.jpg/strch019_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511362/99.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "허리, \n                                        등",
@@ -971,7 +971,7 @@
   },
   {
     "name": "봉 잡고 기마자세 취하기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141333206_RZF4OADAM.jpg/strch006_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511229/117.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "어깨, \n                                        등, \n                                        팔",
@@ -981,7 +981,7 @@
   },
   {
     "name": "무릎 구부려 굴리기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141350478_JSK3LUPX8.jpg/strch017_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511219/100.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "허리, \n                                        둔부",
@@ -991,7 +991,7 @@
   },
   {
     "name": "손바닥 몸 쪽으로 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141340211_RNAUAQWW4.jpg/strch011_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511233/122.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "손목",
@@ -1001,7 +1001,7 @@
   },
   {
     "name": "손등 몸 쪽으로 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141340573_KEUDXUMD6.jpg/strch012_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511231/120.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "손목",
@@ -1011,7 +1011,7 @@
   },
   {
     "name": "누워 무릎 잡고 몸 쪽으로 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141405063_Z30JR1TP2.jpg/strch026_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511235/126.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "고관절",
@@ -1021,7 +1021,7 @@
   },
   {
     "name": "앞으로 나가며 무릎 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141400956_G8HTAIGMB.jpg/strch023_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511234/124.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "고관절",
@@ -1031,7 +1031,7 @@
   },
   {
     "name": "누워 다리 꼬고 몸 쪽으로 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141402326_2YD0AQMKC.jpg/strch024_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511232/121.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "고관절",
@@ -1041,7 +1041,7 @@
   },
   {
     "name": "다리 교차하여 앉아 몸 앞으로 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141407234_1L6JVQ8MC.jpg/strch027_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511224/109.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "고관절",
@@ -1051,7 +1051,7 @@
   },
   {
     "name": "뒤로 목 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141325272_N89LUNDZP.jpg/strch002_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511361/97.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "목",
@@ -1061,7 +1061,7 @@
   },
   {
     "name": "팔꿈치 잡고 팔 뒤로 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141337538_H51AF7K8Y.jpg/strch009_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511358/93.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "팔",
@@ -1071,7 +1071,7 @@
   },
   {
     "name": "앉아 몸 앞으로 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141358262_6XE15KZN0.jpg/strch022_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511359/94.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "고관절",
@@ -1081,7 +1081,7 @@
   },
   {
     "name": "양 무릎 가슴으로 당기기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141350159_75T518K8R.jpg/strch016_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511361/98.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "허리, \n                                        둔부",
@@ -1091,7 +1091,7 @@
   },
   {
     "name": "서서 한 다리 올리고 옆으로 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141410106_7TXDFXMGV.jpg/strch030_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511223/107.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "허벅지, \n                                        고관절",
@@ -1101,7 +1101,7 @@
   },
   {
     "name": "깍지 끼고 등 말기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141356793_NI0WCO1O3.jpg/strch021_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511222/106.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "등",
@@ -1111,7 +1111,7 @@
   },
   {
     "name": "발목 안쪽으로 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141421183_3T7GZW18K.jpg/strch035_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511220/102.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "발목",
@@ -1121,7 +1121,7 @@
   },
   {
     "name": "의자에 앉아 몸 앞으로 굽히기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141341560_UYZJ0EG0S.jpg/strch013_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511226/111.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "허리, \n                                        등",
@@ -1131,7 +1131,7 @@
   },
   {
     "name": "문틈 사이에서 몸 기울이기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141334589_4809LQCR2.jpg/strch007_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511225/110.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "가슴, \n                                        어깨",
@@ -1141,7 +1141,7 @@
   },
   {
     "name": "벽 잡고 뒤로 돌기",
-    "thumbnail_url": "https://dbscthumb-phinf.pstatic.net/0955_000_1/20120315141338793_H2L2YJ8O2.jpg/strch010_01.jpg?type=w224_1&wm=N",
+    "thumbnail_url": "https://res.cloudinary.com/die6y2sez/image/upload/v1751511221/103.jpg",
     "difficulty": "초급",
     "posture": null,
     "bodyPart": "팔",

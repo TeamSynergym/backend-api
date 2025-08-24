@@ -65,10 +65,19 @@ public class ExerciseServiceImpl implements ExerciseService {
     @Override
     @Transactional(readOnly = true)
     public List<ExerciseDTO> getExercisesByName(String name) {
-        return exerciseRepository.findByNameContaining(name)
+        List<ExerciseDTO> exercises = exerciseRepository.findByNameContaining(name)
                 .stream()
                 .map(this::entityToDTO)
                 .collect(Collectors.toList());
+        
+        // URL 정보 로그 출력
+        for (ExerciseDTO exercise : exercises) {
+            System.out.println("[DEBUG] Exercise 검색 결과 - Name: " + exercise.getName() + ", URL: " + exercise.getUrl());
+            System.out.println("[DEBUG] Exercise 검색 결과 - Name: " + exercise.getName() + ", URL 타입: " + (exercise.getUrl() != null ? exercise.getUrl().getClass().getSimpleName() : "null"));
+            System.out.println("[DEBUG] Exercise 검색 결과 - Name: " + exercise.getName() + ", URL is null: " + (exercise.getUrl() == null));
+        }
+        
+        return exercises;
     }
 
     //카테고리로 운동 검색
