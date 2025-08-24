@@ -20,25 +20,25 @@ public class Exercise extends BaseEntity {
     @Column(name = "name", nullable = false, length = 100)
     private String name;
 
-    @Column(length = 50)
+    @Column(length = 150)
     private String category;
 
     @Column(name = "description", columnDefinition = "TEXT")
     private String description;
 
-    @Column(name = "difficulty", length = 20)
+    @Column(name = "difficulty", length = 50)
     private String difficulty;
 
-    @Column(name = "posture", length = 50)
+    @Column(name = "posture", length = 150)
     private String posture;
 
-    @Column(name = "body_part", length = 50)
+    @Column(name = "body_part", length = 150)
     private String bodyPart;
 
-    @Column(name = "thumbnail_url", length = 255)
+    @Column(name = "thumbnail_url", length = 500)
     private String thumbnailUrl;
 
-    @Column(name = "url", length = 255)
+    @Column(name = "url", length = 500)
     private String url;
 
     @Builder

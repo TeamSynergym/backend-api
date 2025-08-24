@@ -45,6 +45,11 @@ public class ExerciseController {
     @GetMapping("/search/name")
     public ResponseEntity<List<ExerciseDTO>> getExercisesByName(@RequestParam String name) {
         List<ExerciseDTO> exercises = exerciseService.getExercisesByName(name);
+        System.out.println("[DEBUG] ExerciseController - getExercisesByName 호출: " + name);
+        System.out.println("[DEBUG] 검색된 운동 수: " + exercises.size());
+        for (ExerciseDTO exercise : exercises) {
+            System.out.println("[DEBUG] 운동 정보 - Name: " + exercise.getName() + ", URL: " + exercise.getUrl());
+        }
         return ResponseEntity.ok(exercises);
     }
 

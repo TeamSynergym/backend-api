@@ -86,16 +86,20 @@ public class RoutineServiceImpl implements RoutineService {
         return entityToDTO(routine, exercises);
     }
 
-    // 사용자별 루틴 목록 조회
+    // 사용자별 루틴 목록 조회 (N+1 문제 해결을 위해 최적화)
     @Override
     public List<RoutineDTO> getRoutinesByUserId(int userId) {
-        User user = findUserById(userId); // userId로 User 객체 조회
-        List<Routine> routines = routineRepository.findByUser(user); // 해당 User의 모든 루틴 조회
+        // 사용자 존재 여부 확인 (예외 발생 시 바로 중단)
+        findUserById(userId);
+        
+        // Fetch Join을 사용하여 한 번의 쿼리로 루틴과 운동 정보를 모두 조회
+        List<Routine> routines = routineRepository.findByUserIdWithExercises(userId);
 
         return routines.stream()
                 .map(routine -> {
-                    List<RoutineExercise> exercises = routineExerciseRepository.findByRoutine(routine); // 각 루틴에 속한 운동 목록 조회
-                    return entityToDTO(routine, exercises); // DTO로 변환
+                    // 이미 fetch join으로 로드된 데이터 사용 (추가 쿼리 없음)
+                    List<RoutineExercise> exercises = routine.getExercises();
+                    return entityToDTO(routine, exercises);
                 })
                 .collect(Collectors.toList());
     }
